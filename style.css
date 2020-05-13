@@ -50,6 +50,7 @@ main{
 
 main h1{
     font-size: 50px;
+    color: #dc3545;
 }
 main h3{
     font-size: 30px;
@@ -62,6 +63,7 @@ main h3{
 #calcResult{
     width:50%;
     height: 50%;
+    color:#17a2b8;
 }
 
 @media(max-width:900px){
