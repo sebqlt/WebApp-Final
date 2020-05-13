@@ -1,0 +1,82 @@
+.myButton{
+    background-color: transparent;
+    border:1px solid #ffc107;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color: #ffc107;
+    font-size: large;
+}
+
+main{
+    background-color: #17a2b8;
+    color:white;
+    height:300px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#numform{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 100px;
+}
+.num{
+    width:50%;
+    height: 50%;
+    font-size: large;
+    color: #28a745;
+}
+
+.center{
+    text-align: center;
+}
+#num1{
+    width:80%;
+    height:50%;
+    font-size: large;
+    border-color: #28a745;
+}
+#num2{
+    width:80%;
+    height:50%;
+    font-size: large;
+    border-color:#28a745;
+}
+
+main h1{
+    font-size: 50px;
+}
+main h3{
+    font-size: 30px;
+}
+
+#result{
+    color: #28a745;
+    font-weight: bold;
+}
+#calcResult{
+    width:50%;
+    height: 50%;
+}
+
+@media(max-width:900px){
+    .num{
+        width:100%;
+    }
+}
+@media(min-width:900px){
+    #numform{
+        margin-bottom: -50px;
+    }
+}
+
+/*
+success : #28a745
+warning: #ffc107
+danger : #dc3545
+*/
